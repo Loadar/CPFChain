@@ -13,10 +13,10 @@ pod 'CPFChain', '~>0.0.1'
 import CPFChain
 ```
 
-> 目前仅支持Swift，主要使用了泛型、协议
+> 目前仅支持Swift，主要使用了泛型、协议;
 > 仅支持引用类型的链式调用
 
-## 示例
+## 示例
 
 ```Swift
 // NSObject支持.cpf，默认已支持
