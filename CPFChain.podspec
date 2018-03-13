@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'chenpengfei' => 'afeiafeia@163.com' }
   s.source = { :git => 'git@github.com:Loadar/CPFChain.git', :tag => s.version.to_s }
-  s.homepage = 'https://github.com/Loadar'
+  s.homepage = 'https://github.com/Loadar/CPFChain'
 
   s.ios.deployment_target = "8.0"
   s.source_files = 'Classes/*.swift'
