@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'CPFChain'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.summary = 'Swift链式调用基础库'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'chenpengfei' => 'afeiafeia@163.com' }
