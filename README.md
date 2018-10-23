@@ -5,7 +5,7 @@ Swift链式调用基础库
 
 ```Swift
 // 支持Pods
-pod 'CPFChain', '~>0.0.1'
+pod 'CPFChain', '~>1.0.0'
 ```
 
 ```Swift
