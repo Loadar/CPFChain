@@ -1,12 +1,12 @@
 //
 //  Person.swift
-//  CPFChainApp
+//  Demo
 //
-//  Created by Aaron on 2018/3/13.
-//  Copyright © 2018年 Aaron. All rights reserved.
+//  Created by Aaron on 2023/6/1.
 //
 
 import Foundation
+import CPFChain
 
 protocol PersonProtocol {
     var id: Int { get set }
@@ -79,6 +79,3 @@ extension Cpf where Base: TeacherProtocol {
         return self
     }
 }
-
-
-

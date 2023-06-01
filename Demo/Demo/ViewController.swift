@@ -1,9 +1,8 @@
 //
 //  ViewController.swift
-//  CPFChainApp
+//  Demo
 //
-//  Created by Aaron on 2018/3/13.
-//  Copyright © 2018年 Aaron. All rights reserved.
+//  Created by Aaron on 2023/6/1.
 //
 
 import UIKit
@@ -12,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
         let worker = Worker()
         worker.cpf
             .id(111)
@@ -27,25 +26,7 @@ class ViewController: UIViewController {
         
         print(worker)
         print(teacher)
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
