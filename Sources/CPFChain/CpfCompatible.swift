@@ -8,7 +8,7 @@
 import Foundation
 
 public protocol CpfCompatible {
-    associatedtype CompatibleType: AnyObject
+    associatedtype CompatibleType
     var cpf: Cpf<CompatibleType> { get }
 }
 
