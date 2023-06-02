@@ -50,32 +50,32 @@ class Teacher: TeacherProtocol, CustomStringConvertible {
 extension Worker: CpfCompatible { }
 extension Teacher: CpfCompatible { }
 
-extension Cpf where Base: PersonProtocol {
+extension Cpf where Wrapped: PersonProtocol {
     @discardableResult
     func id(_ value: Int) -> Cpf {
-        base.id = value
+        wrapped.id = value
         return self
     }
     
     @discardableResult
     func name(_ value: String?) -> Cpf {
-        base.name = value
+        wrapped.name = value
         return self
     }
 }
 
-extension Cpf where Base: WorkerProtocol {
+extension Cpf where Wrapped: WorkerProtocol {
     @discardableResult
     func company(_ value: String?) -> Cpf {
-        base.company = value
+        wrapped.company = value
         return self
     }
 }
 
-extension Cpf where Base: TeacherProtocol {
+extension Cpf where Wrapped: TeacherProtocol {
     @discardableResult
     func school(_ value: String?) -> Cpf {
-        base.school = value
+        wrapped.school = value
         return self
     }
 }

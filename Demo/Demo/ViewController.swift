@@ -24,9 +24,14 @@ class ViewController: UIViewController {
             .name("Chen")
             .school("Tsinghua")
         
-        print(worker)
-        print(teacher)
+        debugPrint(worker)
+        debugPrint(teacher)
 
+        worker.cpf
+            .update(\.id, 999)
+            .update(\.name, "Loadar")
+            .update(\.company, "Zhiyi")
+        debugPrint(worker)
     }
 }
 
