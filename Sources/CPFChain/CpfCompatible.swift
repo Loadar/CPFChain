@@ -12,7 +12,7 @@ public protocol CpfCompatible {
     var cpf: Cpf<CompatibleType> { get }
 }
 
-extension CpfCompatible where Self: AnyObject {
+extension CpfCompatible {
     public var cpf: Cpf<Self> {
         Cpf(self)
     }

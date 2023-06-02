@@ -8,7 +8,7 @@
 
 import Foundation
 
-public final class Cpf<Wrapped: AnyObject> {
+public final class Cpf<Wrapped> {
     public var wrapped: Wrapped
     
     public init(_ wrapped: Wrapped) {
