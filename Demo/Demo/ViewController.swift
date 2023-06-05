@@ -32,6 +32,12 @@ class ViewController: UIViewController {
             .update(\.name, "Loadar")
             .update(\.company, "Zhiyi")
         debugPrint(worker)
+        
+        dateTest()
+    }
+    
+    private func dateTest() {
+        debugPrint(Date.cpf.secondsOfOneDay, Date.cpf.yesterday)
     }
 }
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		93D462B02A28953B00784A62 /* CPFChain-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 93D462AF2A28953B00784A62 /* CPFChain-Dynamic */; };
 		93D462B12A28953B00784A62 /* CPFChain-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 93D462AF2A28953B00784A62 /* CPFChain-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		93D63A982A2D83390099F919 /* Date+Cpf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D63A972A2D83390099F919 /* Date+Cpf.swift */; };
 		93E087BE2A2891EB005E9479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E087BD2A2891EB005E9479 /* AppDelegate.swift */; };
 		93E087C02A2891EB005E9479 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E087BF2A2891EB005E9479 /* SceneDelegate.swift */; };
 		93E087C22A2891EB005E9479 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E087C12A2891EB005E9479 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		93D63A972A2D83390099F919 /* Date+Cpf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Cpf.swift"; sourceTree = "<group>"; };
 		93E087BA2A2891EB005E9479 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E087BD2A2891EB005E9479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93E087BF2A2891EB005E9479 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				93E087BF2A2891EB005E9479 /* SceneDelegate.swift */,
 				93E087C12A2891EB005E9479 /* ViewController.swift */,
 				93E087D12A289215005E9479 /* Person.swift */,
+				93D63A972A2D83390099F919 /* Date+Cpf.swift */,
 				93E087C32A2891EB005E9479 /* Main.storyboard */,
 				93E087C62A2891EC005E9479 /* Assets.xcassets */,
 				93E087C82A2891EC005E9479 /* LaunchScreen.storyboard */,
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D63A982A2D83390099F919 /* Date+Cpf.swift in Sources */,
 				93E087C22A2891EB005E9479 /* ViewController.swift in Sources */,
 				93E087BE2A2891EB005E9479 /* AppDelegate.swift in Sources */,
 				93E087D22A289215005E9479 /* Person.swift in Sources */,
