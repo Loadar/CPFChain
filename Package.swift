@@ -19,6 +19,8 @@ let package = Package(
     targets: [
         .target(
             name: "CPFChain",
-            dependencies: []),
+            dependencies: [],
+            resources: [.copy("PrivacyInfo.xcprivacy")]
+        ),
     ]
 )
