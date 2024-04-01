@@ -9,7 +9,7 @@ let package = Package(
             name: "CPFChain",
             targets: ["CPFChain"]),
         .library(
-            name: "CPFChain-Dynamic",
+            name: "CPFChainDynamic",
             type: .dynamic,
             targets: ["CPFChain"]),
     ],
@@ -19,8 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "CPFChain",
-            path: "Sources",
-            resources: [.copy("PrivacyInfo.xcprivacy")]
+            path: "Sources"
         ),
     ]
 )
