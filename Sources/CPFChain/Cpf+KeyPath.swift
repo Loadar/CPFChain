@@ -9,7 +9,7 @@ import Foundation
 
 public extension Cpf {
     @discardableResult
-    func update<T>(_ keyPath: WritableKeyPath<Wrapped, T>, _ value: T) -> Self {
+    func update<T>(_ keyPath: WritableKeyPath<Wrapped, T>, with value: T) -> Self {
         wrapped[keyPath: keyPath] = value
         return self
     }
