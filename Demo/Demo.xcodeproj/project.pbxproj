@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93D462B02A28953B00784A62 /* CPFChain-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 93D462AF2A28953B00784A62 /* CPFChain-Dynamic */; };
-		93D462B12A28953B00784A62 /* CPFChain-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 93D462AF2A28953B00784A62 /* CPFChain-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		937005002CB66804009E4936 /* CPFChainDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 937004FF2CB66804009E4936 /* CPFChainDynamic */; };
+		937005012CB66962009E4936 /* CPFChainDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 937004FF2CB66804009E4936 /* CPFChainDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		93D63A982A2D83390099F919 /* Date+Cpf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D63A972A2D83390099F919 /* Date+Cpf.swift */; };
 		93E087BE2A2891EB005E9479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E087BD2A2891EB005E9479 /* AppDelegate.swift */; };
 		93E087C02A2891EB005E9479 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E087BF2A2891EB005E9479 /* SceneDelegate.swift */; };
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				93D462B12A28953B00784A62 /* CPFChain-Dynamic in Embed Frameworks */,
+				937005012CB66962009E4936 /* CPFChainDynamic in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D462B02A28953B00784A62 /* CPFChain-Dynamic in Frameworks */,
+				937005002CB66804009E4936 /* CPFChainDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +137,7 @@
 			);
 			name = Demo;
 			packageProductDependencies = (
-				93D462AF2A28953B00784A62 /* CPFChain-Dynamic */,
+				937004FF2CB66804009E4936 /* CPFChainDynamic */,
 			);
 			productName = Demo;
 			productReference = 93E087BA2A2891EB005E9479 /* Demo.app */;
@@ -167,6 +167,9 @@
 				Base,
 			);
 			mainGroup = 93E087B12A2891EA005E9479;
+			packageReferences = (
+				937004FE2CB66804009E4936 /* XCLocalSwiftPackageReference "../../CPFChain" */,
+			);
 			productRefGroup = 93E087BB2A2891EB005E9479 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -346,6 +349,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 628CHGGHXP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -353,6 +357,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,6 +378,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 628CHGGHXP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -380,6 +386,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -416,10 +423,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		937004FE2CB66804009E4936 /* XCLocalSwiftPackageReference "../../CPFChain" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../CPFChain;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		93D462AF2A28953B00784A62 /* CPFChain-Dynamic */ = {
+		937004FF2CB66804009E4936 /* CPFChainDynamic */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = "CPFChain-Dynamic";
+			productName = CPFChainDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

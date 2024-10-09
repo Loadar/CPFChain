@@ -8,14 +8,14 @@
 import Foundation
 import CPFChain
 
-extension Date: CpfCompatible {}
+extension Date: @retroactive CpfCompatible {}
 
-extension Cpf where Wrapped == Date {
+extension Cpf where Wrapped == Date.Type {
     /// 一天的秒数(60 * 60 * 24s)，方便用于计算
-    static var secondsOfOneDay: TimeInterval { 60 * 60 * 24 }
+    var secondsOfOneDay: TimeInterval { 60 * 60 * 24 }
     
     /// 昨天
-    static var yesterday: Date {
+    var yesterday: Date {
         let date = Date(timeIntervalSinceNow: secondsOfOneDay * -1)
         let calendar = Calendar.current
         return calendar.startOfDay(for: date)

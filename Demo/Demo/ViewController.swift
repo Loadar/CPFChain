@@ -28,9 +28,9 @@ class ViewController: UIViewController {
         debugPrint(teacher)
 
         worker.cpf
-            .update(\.id, 999)
-            .update(\.name, "Loadar")
-            .update(\.company, "Zhiyi")
+            .update(\.id, with: 999)
+            .update(\.name, with: "Loadar")
+            .update(\.company, with: "Zhiyi")
         debugPrint(worker)
         
         dateTest()
